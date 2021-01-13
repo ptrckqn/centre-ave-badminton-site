@@ -1,7 +1,10 @@
-import '../styles/globals.css'
+import '../styles/tailwind.css';
+const App = ({ Component, pageProps }) => {
+  return (
+    <div className="relative font-sans">
+      <Component {...pageProps} />
+    </div>
+  );
+};
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
-
-export default MyApp
+export default App;
