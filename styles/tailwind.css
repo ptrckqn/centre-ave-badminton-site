@@ -9,4 +9,8 @@
 
 /* CUSTOM STYLES HERE */
 
+.hero {
+  height: 32rem;
+}
+
 /* purgecss end ignore */
