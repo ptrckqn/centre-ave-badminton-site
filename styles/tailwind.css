@@ -13,4 +13,8 @@
   height: 32rem;
 }
 
+.paragraph {
+  max-width: 44rem;
+}
+
 /* purgecss end ignore */
